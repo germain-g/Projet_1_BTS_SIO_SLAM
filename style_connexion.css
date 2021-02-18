@@ -1,0 +1,108 @@
+#bloc_page_c
+{
+	border-radius: 2px;
+	width: 470px; /*Largeur du bloc*/ 
+	height: 417px; /*Hauteur du bloc*/ 
+	margin: auto; /*Centrer le bloc*/
+	margin-top: 60px;
+	background-attachment: fixed; /* Le fond restera fixe */
+	background-image: url('images/image_fond.png'); /*image d'arrière plan*/
+	font-family: Arial, "Arial Black","Times New Roman", Verdana, sans-serif; /* Police de caractère différente */
+}
+
+#titre_1C
+{
+	width: 300px;
+	padding-top: 5px;
+	margin-left: 40px;
+	margin-bottom: 20px;
+}
+
+#conteneur_1C input /*Dimension des champs*/
+{
+	height: 30px;
+	width: 430px;
+	border: 1px solid rgb(255,146,36); /*Bordure des champs*/
+	border-radius: 4px;
+	font-weight: bold;
+}
+
+#conteneur_1C 
+{
+	margin-left: 15px; /*Pour centrer les champs*/
+}
+
+.bloc_c
+{
+	padding-top: 14px; /*Espacer le haut des champs*/
+}
+
+#bloc_connexion
+{
+	width: 430px;
+	margin: auto;
+	margin-top: 45px;
+}
+
+#boutton_connexion
+{
+	width: 430px;
+	height: 43px;
+	color:white;
+	font-size: 17px;
+	background-color: rgb(255,146,36);
+	border: 1px solid rgb(255,146,36);
+	border-radius: 6px;
+}
+
+#boutton_connexion:hover
+{
+	color: blue;
+}
+
+#infos_compte a
+{
+	font-size: 13.5px;
+	color: black;
+	text-decoration: none; /*Enlever les tiret en bas des liens*/
+}
+
+#infos_compte 
+{
+	width: 290px;
+	height: 7px;
+	margin-left: 15px;
+	margin-top: 10px;
+}
+
+#aides
+{
+	width: 200px;
+	margin-top: 25px;
+	margin-left: 19px;
+	font-size: 13.5px;
+	color: black;
+}
+
+#inscription_c
+{
+	width: 430px;
+	margin: auto;
+	margin-top: 27px;
+}
+
+#boutton_inscription_c
+{
+	background-color: white;
+	width: 430px;
+	height: 20px;
+	font-size: 17px;
+	color: green;
+	border: 1px solid green;
+	border-radius: 6px;
+	padding-left: 180px;
+	padding-right: 180px;
+	padding-top: 14px;
+	padding-bottom: 14px;
+	text-decoration: none;
+}
