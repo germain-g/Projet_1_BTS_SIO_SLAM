@@ -35,7 +35,7 @@ $reponse = $bdd->query('SELECT mail, mot_de_passe FROM mycoloc_bdd');
   {
     if($mail_c == $donnees['mail']  AND $password_c == $donnees['mot_de_passe'])
     {
-      header('Location: utilisateur_1.php');  //Ensuite rediriger le visiteur vers sa page !
+      header('Location: utilisateur.php');  //Ensuite rediriger le visiteur vers sa page !
     }
     elseif ($mail_c != $donnees['mail']  AND $password_c == $donnees['mot_de_passe']) 
     {

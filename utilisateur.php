@@ -34,13 +34,15 @@
 
               <div id="conteneur_2u">
                  <aside>
-                         <h2>Bonjour moi c'est Prénom</h2> <!-- Script php pour obtenir de la base de données le prénom --> 
+                         <h2>Bonjour moi c'est Marc</h2> <!-- Script php pour obtenir de la base de données le prénom --> 
                          <p>Je recherche un appartement ou une colocation à Paris, France.</p>
 
                          <img src="images/separateur.png" alt="ligne de séparation" />
 
                          <h3>Votre annonce</h3>
-                         <p> Bonjour à tous, moi c'est Marc ingénieur en informatique, je recherche une colocations en île de france.</p>
+                         <p> Bonjour à tous, moi c'est Marc ingénieur en informatique, je recherche une colocation en île de france <br/> 
+                             avec un budget de 600 euros.
+                         </p>
                  </aside>
               </div>
 
