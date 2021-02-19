@@ -56,11 +56,11 @@ $reponse = $bdd->query('SELECT mail, mot_de_passe FROM mycoloc_bdd');
     {
       echo "<strong>Erreur, réessayer<br/></strong>";
     }
-
   }
 
 }
-else // Si il manque des paramètres, on avertit le visiteur
+
+else // Si il manque des paramètres, ou qu'il y'a une quelconque érreur on avertit le visiteur
 {
   echo "<strong>Veuillez remplir tous les champs !<br/></strong>";
 }
