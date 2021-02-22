@@ -53,7 +53,7 @@ if ( !empty($_POST['prenom_inscription']) AND !empty($_POST['nom_inscription']) 
                                             'password_i' => $password_i
                                           ));
 
-                  echo "<p><strong>Nom: </strong>" . $nom_i . "<br/>Prénom: " . $prenom_i . "<br/>Mot de passe: " . $password_i . "<br/>Mail: " . $mail_i  . "</p>";
+                  header('Location: utilisateur_i.php');  //Ensuite rediriger le visiteur vers une page d'inscription de base !
 
                   $requete->closeCursor(); // Fermer la requête sql
   
