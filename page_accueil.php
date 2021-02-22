@@ -10,7 +10,7 @@
          <div id="bloc_page">
               <header>
                      <div id="logo">
-                         <a href="index.html"><img src="images/logo.png" alt="Logo du site" /></a>
+                         <a href="index.php"><img src="images/logo.png" alt="Logo du site" /></a> <!-- Changer à la fin le Nom de la page_accueil en index -->
                      </div>
                      
                      <div id="titre_principal">
@@ -19,8 +19,8 @@
                      
                      <nav>
                          <ul>
-                            <li><a href="index.html">Accueil</a></li>
-                            <li><a href="inscription.html">Inscription</a></li>
+                            <li><a href="index.php">Accueil</a></li> <!-- Changer à la fin le Nom de la page_accueil en index -->
+                            <li><a href="inscription.php">Inscription</a></li>
                             <li><a href="connexion.php">Connexion</a></li>
                             <li><a href="#" id="bouton_annonce">Publier votre annonce</a></li> <!-- Lien vers la page annonce -->
                         </ul>
@@ -152,7 +152,7 @@
                 </div> <!-- Le conteneur_1 fin-->
              
                      <div id="logo_2">
-                           <a href="index.html"><img src="images/logo.png" alt="Logo du site" />2021 MyColoc.com</a>
+                           <a href="index.php"><img src="images/logo.png" alt="Logo du site" />2021 MyColoc.com</a> <!-- Changer à la fin le Nom de la page_accueil en index -->
                      </div>  
               </footer>
          </div>

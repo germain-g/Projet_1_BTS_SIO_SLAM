@@ -38,7 +38,7 @@
             </div>
 
             <div id="inscription_c">
-                  <a href="inscription.html" id="boutton_inscription_c">S'inscrire</a> 
+                  <a href="inscription.php" id="boutton_inscription_c">S'inscrire</a> 
             </div>
          
          </div>

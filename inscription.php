@@ -1,62 +1,60 @@
 <!DOCTYPE html>
-<html>
+<html lang="fr">
     <head>
         <meta charset="utf-8" />
-        <title>Inscription Page 1</title>
+        <link rel="stylesheet" href="style_inscription.css" /> <!-- Lien vers le fichier CSS-->
+        <title>S'inscrire</title>
     </head>
-    
-    <body>  	
-<?php
 
-       try 
-       {
-				
-			    $bdd = new PDO ('mysql:host=localhost;dbname=ppe_mycoloc', 'root', '', array(PDO::ATTR_ERRMODE => PDO::ERRMODE_EXCEPTION));
-       } 
-       catch (Exception $e) 
-       {
-			  	die('Erreur de base de données'.$e -> getMessage());
-			 }
+    <body>
+      <div id ="bloc_page_i">
+           <div id="titre_1i">
+                 <h2>Inscrivez-vous</h2>
+           </div>
 
+           <form method="post" action="inscription_bdd.php"> <!-- Changer nom fichier php ICI-->
+                    
+                <div id="conteneur_1i">
+                    <div class="bloc_i">
+                          <input type="text" name="prenom_inscription" id="prenom_utilisateur" placeholder="Prénom(s)" />
+                    </div>
 
-   $prenom_i = htmlspecialchars($_POST['prenom_inscription']); // Nommer les variables reçues du formulaire
-   $nom_i = htmlspecialchars($_POST['nom_inscription']); 
-   $mail_i = htmlspecialchars($_POST['mail_inscription']); 
-   $password_i = htmlspecialchars($_POST['password_inscription']); // "htmlspecialchars" pour se protéger des failles XSS
-  
-   /* 
+                    <div class="bloc_i">
+                          <input type="text" name="nom_inscription" id="nom_utilisateur" placeholder="Nom" />
+                    </div> 
+                        
+                    <div class="bloc_i">
+                          <input type="email" name="mail_inscription" id="mail_utilisateur" placeholder="E-mail" />
+                    </div>
 
-   $conf_pass = htmlspecialchars($_POST['confirme_password']); //Faire les modifications pr valider conditions générales et la confirmation du mot depasse
-   $conditions_gene = htmlspecialchars($_POST['conditions_generales']); 
+                    <div class="bloc_i">
+                          <input type="password" name="password_inscription" id="password_utilisateur" placeholder="Mot de passe" />
+                    </div>
 
-   */
+                    <div class="bloc_i">
+                          <input type="password" name="confirme_password" id="conf_password" placeholder="Confirmez votre mot de passe" />
+                    </div>
+                </div> <!-- conteneur_1i Fin-->
 
-//Pour vérifier qu'il y'a des valeurs entrées dans les champs de saisies
-if (isset($_POST['prenom_inscription']) AND isset($_POST['nom_inscription']) AND isset($_POST['mail_inscription']) AND isset($_POST['password_inscription']))
-{
+                    <div id="accepte_condition">
+                          <input type="checkbox" name="conditions_generales" value="1" id="cond_gene" /> 
+                          <label for="cond_gene">J'ai lu et j'accepte les <a href="#">conditions générales</a> </label> <!-- Lien vers une autre page -->
+                    </div>
 
-$requete = $bdd->prepare('INSERT INTO mycoloc_bdd(prenom, nom, mail, mot_de_passe) VALUES (:prenom_i, :nom_i, :mail_i, :password_i)') or die(print_r($bdd->errorInfo()));
+                    <div id="bloc_inscription" >
+                          <input type="submit" value="S'inscrire" id="boutton_inscription"/>  
+                    </div> 
+            </form>
 
-$requete->execute(array( 
-                           'prenom_i' => $prenom_i, 
-                           'nom_i' => $nom_i,
-                           'mail_i' => $mail_i,
-                           'password_i' => $password_i
-                        ));
+        <div id="aides">
+              <p>Vous avez déjà un compte ?</p>
+        </div>
 
- echo "<p><strong>Nom: </strong>" . $nom_i . "<br/>Prénom: " . $prenom_i . "<br/>Mot de passe: " . $password_i . "<br/>Mail: " . $mail_i  . "</p>";
+        <div id="connexion_i">
+              <a href="connexion.php" id="boutton_connexion_i">Se connecter</a> 
+        </div>
+                
+      </div> 
 
-
-}
-else // Si il manque des paramètres, on avertit le visiteur
-{
-  echo "Il faut renseigner tous les champs !";
-}
-
-$requete->closeCursor();
-
-
-?>
-
-   </body>
+    </body>
 </html>
