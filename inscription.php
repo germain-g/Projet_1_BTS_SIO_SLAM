@@ -12,7 +12,7 @@
                  <h2>Inscrivez-vous</h2>
            </div>
 
-           <form method="post" action="inscription_bdd.php"> <!-- Changer nom fichier php ICI-->
+           <form method="post" action="inscription.php"> <!-- Changer nom fichier php ICI-->
                     
                 <div id="conteneur_1i">
                     <div class="bloc_i">
@@ -55,6 +55,17 @@
         </div>
                 
       </div> 
+
+
+<!-- Code PHP !!!  -->
+  <?php 
+
+      if ( isset($_POST['prenom_inscription']) AND isset($_POST['nom_inscription']) AND isset($_POST['mail_inscription']) AND isset($_POST['password_inscription']) AND isset($_POST['confirme_password']) ) //Ce "if" Pour qu'a la première ouverture de la page "inscription.php" le serveur ne considère pas comme érreur des éléments de la page "inscription_bdd.php" et ne les affiches !
+       {
+           include("inscription_bdd.php"); // Insérer la page PHP qui permet l'insertion des données de l'utilisateur dans la base de données !
+       }
+
+  ?>
 
     </body>
 </html>

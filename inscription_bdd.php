@@ -3,9 +3,12 @@
     <head>
         <meta charset="utf-8" />
         <title>S'inscrire</title>
+        <link rel="stylesheet" href="inscription_bdd.css" /> <!-- Lien vers le fichier CSS-->
     </head>
     
     <body>  	
+
+    <div id="bloc_page"> 
 <?php
 
        try 
@@ -109,6 +112,7 @@ else // Si il manque des paramètres, on avertit le visiteur
 
 
 ?>
-
+  
+   </div>
    </body>
 </html>
