@@ -1,0 +1,84 @@
+#bloc_page_an
+{
+	border-radius: 6px;
+	width: 600px; /*Largeur du bloc*/ 
+	height: 700px; /*Hauteur du bloc*/ 
+	margin: auto; /*Centrer le bloc*/
+	margin-top: 30px;
+	background-attachment: fixed; /* Le fond restera fixe */
+	background-image: url('images/image_fond.png'); /*image d'arrière plan*/
+	font-family: Arial, "Arial Black","Times New Roman", Verdana, sans-serif; /* Police de caractère différente */
+}
+
+#bloc_page_an label
+{
+	font-size: 15px;
+}
+
+#titre_1an
+{
+	width: 600px;
+	text-align: center;
+	padding-top: 5px;
+	margin-bottom: 40px;
+}
+
+#conteneur_1an input /*Dimension des champs*/
+{
+	height: 35px;
+	width: 550px;
+	border: 1px solid rgb(255,146,36); /*Bordure des champs*/
+	border-radius: 4px;
+}
+
+#conteneur_1an
+{
+	margin-left: 20px; /*Pour centrer les champs*/
+}
+
+.bloc_1
+{
+	margin-top: 30px;
+}
+
+#bloc_2
+{
+	height: 320px;
+	width: 560px;
+	margin-top: 30px;
+}
+
+#bloc_2 textarea
+{
+	height: 310px;
+	width: 550px;
+	text-align: justify;
+	padding: 10px;
+	border: 1px solid rgb(255,146,36); /*Bordure du champ*/
+	border-radius: 4px;
+	font-size: 16px;
+	font-family: "Times New Roman", Verdana, sans-serif; /* Police de caractère différente */
+}
+
+#bloc_2
+{
+	margin-left: 13px; /*Pour centrer le champ*/
+}
+
+#bloc_3
+{
+	width: 210px;
+	margin: auto;
+	margin-top: 50px;
+}
+
+#boutton_an
+{
+	width: 180px;
+	height: 30px;
+	color:white;
+	font-size: 15px;
+	background-color: rgb(255,146,36);
+	border: 1px solid rgb(255,146,36);
+	border-radius: 6px;
+}
