@@ -12,7 +12,7 @@
 
 #bloc_page_an label
 {
-	font-size: 15px;
+	font-size: 15.5px;
 }
 
 #titre_1an
@@ -81,4 +81,9 @@
 	background-color: rgb(255,146,36);
 	border: 1px solid rgb(255,146,36);
 	border-radius: 6px;
+}
+
+#boutton_an:hover
+{
+	color: blue;
 }
