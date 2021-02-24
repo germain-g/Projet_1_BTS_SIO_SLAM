@@ -12,7 +12,7 @@
                    <h2>Saisissez vôtre annonce :</h2>
               </div>
 
-              <form method="post" action="annonces_bdd.php"> <!-- Le formulaire est envoyé sur une autre page !-->
+              <form method="post" action="annonces.php">
                   
                   <div id="conteneur_1an">
                       <div class="bloc_1">
@@ -35,7 +35,17 @@
                       <input type="submit" value="Déposer l'annonce" id="boutton_an"/>  
                   </div>      
               </form>
-
+              
          </div>
+
+<!-- Code PHP !!!  -->
+  <?php 
+
+       if ( isset($_POST['option']) AND isset($_POST['prenom_annonce']) AND isset($_POST['annonce']) ) //Ce "if" Pour qu'a la première ouverture de la page "annonces.php" le serveur ne considère pas comme érreur des éléments de la page "annonces_bdd.php" et ne les affiches !
+       {
+           include("annonces_bdd.php"); // Insérer la page PHP qui permet l'enregistrement de l'annonce dans la base de données !
+       }
+
+  ?>
     </body>
 </html>

@@ -68,7 +68,6 @@ else // Si il manque des paramètres, on avertit le visiteur
   echo "<strong>Il faut renseigner tous les champs !<br/></strong>";
 }
 
-
 ?>
   
    </div>
