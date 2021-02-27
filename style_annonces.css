@@ -1,8 +1,34 @@
+body
+{	width: 1499px; 
+	height: 1130px;
+}
+
+#bloc_entete
+{
+	margin-bottom: 30px;
+	width: 1498px; 
+	height: 335px;
+}
+
+#annonces_bdd
+{
+	width: 600px;
+	height: 40px;
+	margin: auto;
+	margin-top: 25px;
+	color: red;
+	text-align: center;
+	font-weight: bold;
+	font-size: 14.5px;
+	font-family: Arial, "Arial Black","Times New Roman", Verdana, sans-serif;
+}
+
+
 #bloc_page_an
 {
-	border-radius: 2px;
+	border-radius: 15px;
 	width: 600px; /*Largeur du bloc*/ 
-	height: 690px; /*Hauteur du bloc*/ 
+	height: 735px; /*Hauteur du bloc*/ 
 	margin: auto; /*Centrer le bloc*/
 	margin-top: 20px;
 	background-attachment: fixed; /* Le fond restera fixe */

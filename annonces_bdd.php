@@ -3,7 +3,6 @@
     <head>
         <meta charset="utf-8" />
         <title>Colocations à Paris et dans toute l'Île-de-France | MyColoc</title>
-        <link rel="stylesheet" href="annonces_bdd.css" /> <!-- Lien vers le fichier CSS-->
     </head>
     
     <body>    
