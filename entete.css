@@ -1,0 +1,68 @@
+header
+{
+	margin: auto;
+	width: 1493px;
+	height: 325px;
+	display: flex; /*Aligner en ligne*/ 
+	justify-content: space-between; /*Mettre de l'espace entre les blocs*/ 
+	align-items: flex-start; /*Aligner en-haut, au début*/ 
+	background-image: url('images/image_banniere.jpg');
+	font-family: Arial, "Arial Black","Times New Roman", Verdana, sans-serif;
+	color: black;
+}
+
+#titre_principal
+{
+	color: white;
+	width: 600px;
+	font-size: 23px;
+    font-weight: normal;
+    margin-left: 250px;
+    margin-top: 110px;
+}
+
+#logo
+{
+	width: 30px;
+    height: 40px;
+}
+
+nav ul
+{
+	list-style-type: none; /*Pour enlever les puces*/
+    display: flex; /*Pour aligner en ligne*/
+}
+
+nav li
+{
+    margin-right: 18px;
+}
+
+nav a /*Sélectioner tous les liens à l'intérieur de la balise nav*/
+{
+    font-size: 14px;
+    font-weight: bold;
+    color: white;
+    text-decoration: none; /*Enlever les tiret en bas des liens*/
+}
+
+nav a:hover /*Quand je survole les liens*/
+{
+    color: blue;
+}
+
+#bouton_annonce
+{
+	background-color: rgb(255,146,36);
+	border: 1px solid rgb(255,146,36);
+	border-radius: 6px;
+	padding: 14px
+}
+
+#titre_1
+{
+	font-size: 20px;
+	width: 700px;
+	margin: auto;
+	margin-bottom: 50px;
+}
