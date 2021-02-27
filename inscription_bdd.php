@@ -3,7 +3,6 @@
     <head>
         <meta charset="utf-8" />
         <title>S'inscrire</title>
-        <link rel="stylesheet" href="inscription_bdd.css" /> <!-- Lien vers le fichier CSS-->
     </head>
     
     <body>  	
