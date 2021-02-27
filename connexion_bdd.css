@@ -8,6 +8,7 @@
 	border-radius: 0px 0px 6px 6px; /*En haut gauche, en haut droite, en bas droite, en bas gauche*/
 	margin-bottom: 5px;
 	font-size: 14.5px;
+	font-weight: bold;
 	background-image: url('images/image_fond.png'); /*image d'arrière plan*/
 	background-attachment: fixed; /* Le fond restera fixe */
 	font-family: Arial, "Arial Black","Times New Roman", Verdana, sans-serif; /* Police de caractère différente */

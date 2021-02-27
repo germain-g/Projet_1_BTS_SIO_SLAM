@@ -60,17 +60,17 @@ if ( !empty($_POST['prenom_inscription']) AND !empty($_POST['nom_inscription']) 
         }
         else
         {
-           echo "<strong>Valider les conditions générales !<br/></strong>";
+           echo "Valider les conditions générales !";
         }
     }
     else
     {
-       echo "<strong>Les mots de passe ne sont pas identiques !<br/></strong>";
+       echo "Les mots de passe ne sont pas identiques !";
     }
   }
   else
   {
-    echo "<strong>Mot de passe trop court, doit contenir au moins 4 caractères !<br/></strong>";
+    echo "Mot de passe trop court, doit contenir au moins 4 caractères !";
   }
 
 }
@@ -78,36 +78,36 @@ if ( !empty($_POST['prenom_inscription']) AND !empty($_POST['nom_inscription']) 
 // Si le Prénom n'est pas saisie mais tous le reste oui
 elseif ( empty($_POST['prenom_inscription']) AND !empty($_POST['nom_inscription']) AND !empty($_POST['mail_inscription']) AND !empty($_POST['password_inscription']) AND !empty($_POST['confirme_password']) )
 {
-  echo "<strong>Veuillez saisir un prénom !<br/></strong>";
+  echo "Veuillez saisir un prénom !";
 }
 
 // Si le Nom n'est pas saisie mais tous le reste oui
 elseif ( !empty($_POST['prenom_inscription']) AND empty($_POST['nom_inscription']) AND !empty($_POST['mail_inscription']) AND !empty($_POST['password_inscription']) AND !empty($_POST['confirme_password']) )
 {
-  echo "<strong>Veuillez saisir un Nom !<br/></strong>";
+  echo "Veuillez saisir un Nom !";
 }
 
 // Si l'adresse mail n'est pas saisie mais tous le reste oui
 elseif ( !empty($_POST['prenom_inscription']) AND !empty($_POST['nom_inscription']) AND empty($_POST['mail_inscription']) AND !empty($_POST['password_inscription']) AND !empty($_POST['confirme_password']) )
 {
-  echo "<strong>Veuillez saisir une adresse E-mail !<br/></strong>";
+  echo "Veuillez saisir une adresse E-mail !";
 }
 
 // Si le mot de passe n'est pas saisie mais tous le reste oui
 elseif ( !empty($_POST['prenom_inscription']) AND !empty($_POST['nom_inscription']) AND !empty($_POST['mail_inscription']) AND empty($_POST['password_inscription']) AND !empty($_POST['confirme_password']) )
 {
-  echo "<strong>Veuillez saisir un mot de passe !<br/></strong>";
+  echo "Veuillez saisir un mot de passe !";
 }
 
 // Si la confirmation du mot de passe n'est pas saisie mais tous le reste oui
 elseif ( !empty($_POST['prenom_inscription']) AND !empty($_POST['nom_inscription']) AND !empty($_POST['mail_inscription']) AND !empty($_POST['password_inscription']) AND empty($_POST['confirme_password']) )
 {
-  echo "<strong>Confirmer le mot de passe !<br/></strong>";
+  echo "Confirmer le mot de passe !";
 }
 
 else // Si il manque des paramètres, on avertit le visiteur
 {
-  echo "<strong>Il faut renseigner tous les champs !<br/></strong>";
+  echo "Il faut renseigner tous les champs !";
 }
 
 

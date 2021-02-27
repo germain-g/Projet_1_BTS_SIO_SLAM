@@ -39,22 +39,22 @@ $reponse = $bdd->query('SELECT mail, mot_de_passe FROM mycoloc_bdd'); // Sélect
     }
     elseif ($mail_c != $donnees['mail']  AND $password_c == $donnees['mot_de_passe']) 
     {
-      echo "<strong>Adresse E-mail incorrecte, réessayer<br/></strong>";
+      echo "Adresse E-mail incorrecte, réessayer";
       break; // Pour qu'après l'affichage de l'érreur, la lecture du code s'arrête
     }
     elseif ($mail_c == $donnees['mail']  AND $password_c != $donnees['mot_de_passe']) 
     {
-      echo "<strong>Mot de passe incorrecte, réessayer<br/></strong>";
+      echo "Mot de passe incorrecte, réessayer";
       break; // Pour qu'après l'affichage de l'érreur, la lecture du code s'arrête  
     }
     elseif ($mail_c != $donnees['mail']  AND $password_c != $donnees['mot_de_passe']) 
     {
-      echo "<strong>Adresse E-mail et Mot de passe incorrecte !<br/></strong>";
+      echo "Adresse E-mail et Mot de passe incorrecte !";
       break; // Pour qu'après l'affichage de l'érreur, la lecture du code s'arrête 
     }
     else
     {
-      echo "<strong>Erreur, réessayer<br/></strong>";
+      echo "Erreur, réessayer";
     }
   }
 
@@ -65,18 +65,18 @@ $reponse->closeCursor(); //Fermer la requête sql
 // Si il y'a un mail entrées dans les champs de saisies mais pas de mot de  passe entrées dans les champs de saisies
 elseif ( !empty($_POST['mail_connexion']) AND empty($_POST['password_connexion']) )
 {
-  echo "<strong>Veuillez saisir un mot de passe !<br/></strong>";
+  echo "Veuillez saisir un mot de passe !";
 }
 
 // Si pas de mail entrées dans les champs de saisies mais le de mot de passe est remplie
 elseif ( empty($_POST['mail_connexion']) AND !empty($_POST['password_connexion']) )
 {
-  echo "<strong>Veuillez saisir une adresse mail !<br/></strong>";
+  echo "Veuillez saisir une adresse mail !";
 }
 
 else // Si aucun champs n'est remplie
 {
-  echo "<strong>Veuillez remplir tous les champs !<br/></strong>";
+  echo "Veuillez remplir tous les champs !";
 }
 
 

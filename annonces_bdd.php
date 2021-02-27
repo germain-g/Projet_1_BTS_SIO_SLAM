@@ -48,24 +48,24 @@ if ( !empty($_POST['option']) AND !empty($_POST['prenom_annonce']) AND !empty($_
 // Si l'option n'est pas remplie mais tous le reste oui
 elseif ( empty($_POST['option']) AND !empty($_POST['prenom_annonce']) AND !empty($_POST['annonce']) )
 {
-  echo "<strong>Veuillez saisir une option d'annonceur !<br/></strong>";
+  echo "Veuillez saisir une option d'annonceur !";
 }
 
 // Si le Prénom n'est pas saisie mais tous le reste oui
 elseif ( !empty($_POST['option']) AND empty($_POST['prenom_annonce']) AND !empty($_POST['annonce']) )
 {
-  echo "<strong>Veuillez saisir un prénom !<br/></strong>";
+  echo "Veuillez saisir un prénom !";
 }
 
 // Si l'annonce n'est pas saisie mais tous le reste oui
 elseif ( !empty($_POST['option']) AND !empty($_POST['prenom_annonce']) AND empty($_POST['annonce']))
 {
-  echo "<strong>Veuillez compléter vôtre annonce !<br/></strong>";
+  echo "Veuillez compléter vôtre annonce !";
 }
 
 else // Si il manque des paramètres, on avertit le visiteur
 {
-  echo "<strong>Il faut renseigner tous les champs !<br/></strong>";
+  echo "Il faut renseigner tous les champs !";
 }
 
 ?>

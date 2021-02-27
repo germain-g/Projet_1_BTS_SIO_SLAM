@@ -22,7 +22,7 @@
                             <li><a href="index.php">Accueil</a></li> <!-- Changer à la fin le Nom de la page_accueil en index -->
                             <li><a href="inscription.php">Inscription</a></li>
                             <li><a href="connexion.php">Connexion</a></li>
-                            <li><a href="#" id="bouton_annonce">Publier votre annonce</a></li> <!-- Lien vers la page annonce -->
+                            <li><a href="annonces.php" id="bouton_annonce">Publier votre annonce</a></li>
                         </ul>
                      </nav>
               </header>
@@ -106,7 +106,7 @@
                       </div>
 
                       <div id="marge_ba"> 
-                           <a href="#" id="bouton_annonce_1" >Déposez une annonce</a> <!-- Lien vers la page annonce -->
+                           <a href="annonces.php" id="bouton_annonce_1" >Déposez une annonce</a> <!-- Lien vers la page annonce -->
                       </div>
 
               </section>
