@@ -3,7 +3,6 @@
     <head>
         <meta charset="utf-8" />
         <title>Se connecter</title>
-        <link rel="stylesheet" href="connexion_bdd.css" /> <!-- Lien vers le fichier CSS-->
     </head>
     
     <body>

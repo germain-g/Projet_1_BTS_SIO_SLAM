@@ -1,10 +1,35 @@
+body
+{	width: 1499px; 
+	height: 910px;
+}
+
+#bloc_entete
+{
+	margin-bottom: 30px;
+	width: 1498px; 
+	height: 335px;
+}
+
+#connexion_bdd
+{
+	width: 470px;
+	height: 40px;
+	margin: auto;
+	margin-top: 50px;
+	color: red;
+	text-align: center;
+	font-weight: bold;
+	font-size: 14.5px;
+	font-family: Arial, "Arial Black","Times New Roman", Verdana, sans-serif;
+}
+
 #bloc_page_c
 {
-	border-radius: 2px;
+	border-radius: 15px;
 	width: 470px; /*Largeur du bloc*/ 
-	height: 417px; /*Hauteur du bloc*/ 
+	height: 457px; /*Hauteur du bloc*/ 
 	margin: auto; /*Centrer le bloc*/
-	margin-top: 60px;
+	margin-top: 20px;
 	background-attachment: fixed; /* Le fond restera fixe */
 	background-image: url('images/image_fond.png'); /*image d'arrière plan*/
 	font-family: Arial, "Arial Black","Times New Roman", Verdana, sans-serif; /* Police de caractère différente */
