@@ -19,7 +19,7 @@
                      
                      <nav>
                          <ul>
-                            <li><a href="index.php">Accueil</a></li> <!-- Changer à la fin le Nom de la page_accueil en index -->
+                            <li><a href="index.php">Accueil</a></li>
                             <li><a href="inscription.php">Inscription</a></li>
                             <li><a href="connexion.php">Connexion</a></li>
                             <li><a href="annonces.php" id="bouton_annonce">Publier votre annonce</a></li>
@@ -34,21 +34,21 @@
               <section>
                       <div id="option_colocation">
                               <div class="option">
-                                   <img src="images/option_coloc/option_1.jpg" alt="Option de chambre" title="Pour trouver une chambre" />
+                                   <img src="images/option_coloc/option.png" alt="Option de chambre" title="Pour trouver une chambre" />
                                    <h3>Trouver une chambre en colocation à Paris</h3>
                                    <p>Créez votre profil, décrivez rapidement votre recherche et rajoutez une description FUN et complète de vous.</p>
                                    <a href="#" class="bouton_divers">Trouver une chambre</a> <!-- Créer la page correspondante au lien -->
                               </div>
 
                               <div class="option">
-                                   <img src="images/option_coloc/option_2.jpg" alt="Option de chambre" title="Pour trouver une chambre" />
+                                   <img src="images/option_coloc/option.png" alt="Option de chambre" title="Pour trouver une chambre" />
                                    <h3>Former un groupe pour créer une colocation à Paris</h3>
                                    <p>Marre de chercher seul ? Trouvez des amis sur MyColoc pour vous aider à dénicher votre futur logement !</p>
                                    <a href="#" class="bouton_divers">Former un groupe</a> <!-- Créer la page correspondante au lien -->
                               </div>
 
                               <div class="option">
-                                   <img src="images/option_coloc/option_3.jpg" alt="Option de chambre" title="Pour trouver une chambre" />
+                                   <img src="images/option_coloc/option.png" alt="Option de chambre" title="Pour trouver une chambre" />
                                    <h3>Proposer un logement en colocation à Paris</h3>
                                    <p>Publiez une chambre ou un logement sur MyColoc et sélectionnez des locataires qui «matchent» avec vos critères.</p>
                                    <a href="#" class="bouton_divers">Proposer un logement</a> <!-- Créer la page correspondante au lien -->
@@ -65,19 +65,19 @@
                      
                       <div id="partenaires">
                         <div class="liens_partenaires">
-                            <a href="#"><img src="images/partenaires/partenaire_1.jpg" alt="Partenaire de MyColoc" title="Partenaire 1" />Voir infos partenaire1</a> <!-- Créer la page correspondante au lien -->
+                            <a href="#"><img src="images/partenaires/partenaire_1.png" alt="Partenaire de MyColoc" title="Partenaire 1" />Sorbonne Université Campus Pierre et Marie Curie</a> <!-- Créer la page correspondante au lien -->
                         </div>
                         
                         <div class="liens_partenaires">
-                            <a href="#"><img src="images/partenaires/partenaire_2.jpg" alt="Partenaire de MyColoc" title="Partenaire 2" />Voir infos partenaire2</a> <!-- Créer la page correspondante au lien -->
+                            <a href="#"><img src="images/partenaires/partenaire_2.png" alt="Partenaire de MyColoc" title="Partenaire 2" />Epitech Paris</a> <!-- Créer la page correspondante au lien -->
                         </div>
 
                         <div class="liens_partenaires">
-                            <a href="#"><img src="images/partenaires/partenaire_3.jpg" alt="Partenaire de MyColoc" title="Partenaire 3" />Voir infos partenaire3</a> <!-- Créer la page correspondante au lien -->
+                            <a href="#"><img src="images/partenaires/partenaire_3.png" alt="Partenaire de MyColoc" title="Partenaire 3" />HEC Paris</a> <!-- Créer la page correspondante au lien -->
                         </div>
 
                         <div class="liens_partenaires">
-                           <a href="#"><img src="images/partenaires/partenaire_4.jpg" alt="Partenaire de MyColoc" title="Partenaire 4" />Voir infos partenaire4</a> <!-- Créer la page correspondante au lien -->  
+                           <a href="#"><img src="images/partenaires/partenaire_4.png" alt="Partenaire de MyColoc" title="Partenaire 4" />Université Paris-Dauphine</a> <!-- Créer la page correspondante au lien -->  
                         </div>       
                       </div>
 
@@ -106,7 +106,7 @@
                       </div>
 
                       <div id="marge_ba"> 
-                           <a href="annonces.php" id="bouton_annonce_1" >Déposez une annonce</a> <!-- Lien vers la page annonce -->
+                           <a href="annonces.php" id="bouton_annonce_1" >Déposez une annonce</a>
                       </div>
 
               </section>
@@ -152,7 +152,7 @@
                 </div> <!-- Le conteneur_1 fin-->
              
                      <div id="logo_2">
-                           <a href="index.php"><img src="images/logo.png" alt="Logo du site" />2021 MyColoc.com</a> <!-- Changer à la fin le Nom de la page_accueil en index -->
+                           <a href="index.php"><img src="images/logo.png" alt="Logo du site" />2021 MyColoc.com</a>
                      </div>  
               </footer>
          </div>

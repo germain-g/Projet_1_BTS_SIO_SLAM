@@ -3,7 +3,7 @@
     <head>
         <meta charset="utf-8" />
         <title>Colocations à Paris et dans toute l'Île-de-France | MyColoc</title>
-        <link rel="stylesheet" href="style_utilisateur.css" /> <!-- Lien vers le fichier CSS-->
+        <link rel="stylesheet" href="style_utilisateur.css" />
     </head>
     
     <body> 
@@ -24,7 +24,7 @@
                         <div id="bloc_3">
                            <h3>Informations de compte</h3>
                            <p>
-                              Nom: DUBOIS <br/> <!-- Script php pour obtenir informations de la base de données --> 
+                              Nom: DUBOIS <br/>
                               Prénom(s): Marc <br/>
                               Mail: marc@yahoo.com
                            </p>
@@ -34,7 +34,7 @@
 
               <div id="conteneur_2u">
                  <aside>
-                         <h2>Bonjour moi c'est Marc</h2> <!-- Script php pour obtenir de la base de données le prénom --> 
+                         <h2>Bonjour moi c'est Marc</h2>
                          <p>Je recherche un appartement ou une colocation à Paris, France.</p>
 
                          <img src="images/separateur.png" alt="ligne de séparation" />

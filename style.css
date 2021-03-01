@@ -1,6 +1,5 @@
 body
 {
-	background-image: url("images/image_fond.png");
     font-family: Arial, "Arial Black","Times New Roman", Verdana, sans-serif; /* Police de caractère différente */
 	color: black;
 }
@@ -147,7 +146,7 @@ nav a:hover /*Quand je survole les liens*/
 #partenaires a
 {
 	font-size: 15px;
-	color: white;
+	color: blue;
     text-decoration: none;
 }
 
@@ -264,6 +263,6 @@ footer
 
 #conteneur_1f a:hover /*Quand je survole les liens*/
 {
-    color: green;
+    color: blue;
     text-decoration: underline;
 }

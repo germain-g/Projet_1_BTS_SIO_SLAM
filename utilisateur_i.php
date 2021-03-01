@@ -26,7 +26,7 @@
 
               <div id="conteneur_2u">
                  <aside>
-                         <h2>Bonjour, Vous pouvez compléter votre profil</h2> <!-- Script php pour obtenir de la base de données le prénom --> 
+                         <h2>Bonjour, Vous pouvez compléter votre profil</h2>
                          <p>Je recherche un appartement ou une colocation à Paris, France.</p>
 
                          <img src="images/separateur.png" alt="ligne de séparation" />
