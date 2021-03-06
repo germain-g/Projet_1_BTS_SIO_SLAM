@@ -55,9 +55,6 @@
                               </div>
                       </div>
 
-                      <div id="dernieres_annonces">
-                           <h3>Consultez nos dernières colocations à Paris, Île-de-France</h3>
-                      </div>
 
                       <div id="titre_2">
                              <h3>Quelques-uns des partenaires qui utilisent MyColoc</h3>

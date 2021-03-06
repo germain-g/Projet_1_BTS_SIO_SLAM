@@ -118,16 +118,9 @@ nav a:hover /*Quand je survole les liens*/
     text-decoration: underline;
 }
 
-#dernieres_annonces
-{
-	font-size: 20px;
-	width: 700px;
-	margin: auto;
-	margin-bottom: 80px;
-}
-
 #titre_2
 {
+	margin-top: 90px;
 	font-size: 20px;
 	width: 600px;
 	margin: auto;
