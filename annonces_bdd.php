@@ -38,7 +38,7 @@ if ( !empty($_POST['option']) AND !empty($_POST['prenom_annonce']) AND !empty($_
                               'annonce_an' => $annonce_an
                           ));
 
-  header('Location: page_accueil.php');  //Ensuite rediriger le visiteur vers la page d'accueil !
+  header('Location: index.php');  //Ensuite rediriger le visiteur vers la page d'accueil !
 
   $requete->closeCursor(); // Fermer la requête sql
 
